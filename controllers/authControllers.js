@@ -11,7 +11,7 @@ import ctrlWrapper from "../decorators/ctrlWrapper.js";
 
 const { JWT_SECRET } = process.env;
 
-const avatarPath = path.resolve("publick", "avatars");
+const avatarPath = path.resolve("public", "avatars");
 
 const signup = async (req, res) => {
   const { email, password } = req.body;
